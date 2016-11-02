@@ -1,0 +1,71 @@
+@font-face {
+  font-family: basictitle;
+  src: url('basictitlefont.ttf');
+  
+}
+@font-face{
+  font-family:earth;
+  src: url("earthorbiter3d.ttf");
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 734;
+  height:1087;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+width: 734px;
+  height: 1087px;
+  background-image: url(background.jpg);
+  justify-content: flex-start;
+}
+
+.prod{
+text-align: center;
+  margin-top: 68px;
+  margin-bottom: 100px;
+  height: 50px;
+  font-family: 'basictitle';
+    color:darkslategray;
+  font-size:1.1em;
+}
+.prod span{
+  font-size:1.2em;
+}
+
+.slogan{
+font-family:;
+  flex:1;
+  text-align: center;
+  font-size: 110px;
+  color:white;
+}
+
+.title{
+text-align: center;
+  flex:1;
+  font-size: 30px;
+  color:darkgray;
+}
+.title span{
+font-size: 70px;
+  font-family: earth;
+  
+}
+
+.names{
+  text-align: center;
+  flex:1;
+  font-size: 21px;
+  color:grey;
+  font-family: url(CaviarDreams.ttf);
+  font-family: basictitle;
+}
+
+.names span{
+font-size:30px;
+  
+
+}
